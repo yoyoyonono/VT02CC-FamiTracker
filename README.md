@@ -1,6 +1,6 @@
-# 0CC-FamiTracker
+# VT02CC-FamiTracker
 
-0CC-FamiTracker is a modified version of FamiTracker that incorporates various bug fixes and new features which work in exported NSFs as well. The name "0CC" comes from the author's favourite arpeggio effect command. The current version includes:
+VT02CC-FamiTracker is a modified version of 0CC-FamiTracker which is a modified version of FamiTracker that incorporates various bug fixes and new features which work in exported NSFs as well. The name "VT02CC" comes from the VT02 hardware that this fork adds as well as from 0CC-FamiTracker. The current version includes:
 
 - Partial FamiTracker 0.5.0 beta support
 - Sound engine extensions:
