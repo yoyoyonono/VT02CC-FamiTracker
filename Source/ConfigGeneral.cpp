@@ -65,7 +65,7 @@ const LPCWSTR CConfigGeneral::CONFIG_DESC[] = {		// // //
 	L"Ignore the pattern step setting when moving the cursor, only use it when inserting notes.",
 	L"Make delete key pull up rows rather than only deleting the value, as if by Shift+Delete.",
 	L"Create a backup copy of the existing file when saving a module.",
-	L"Only allow one single instance of the 0CC-FamiTracker application.",
+	L"Only allow one single instance of the VT02CC-FamiTracker application.",
 	L"Preview all channels when inserting notes in the pattern editor.",
 	L"Do not select the whole channel when double-clicking in the pattern editor.",
 	L"When using Shift + Mouse Wheel to modify a pattern value, allow the parameter to wrap around its limit values.",
@@ -76,7 +76,7 @@ const LPCWSTR CConfigGeneral::CONFIG_DESC[] = {		// // //
 	L"Display rows that are truncated by Bxx, Cxx, or Dxx effects.",
 	L"Use the extra keys on the keypad as hexadecimal digits in the pattern editor.",
 	L"Allow pattern selections to span across multiple frames.",
-	L"Check for new 0CC-FamiTracker versions on startup if an internet connection could be established.",
+	L"Check for new VT02CC-FamiTracker versions on startup if an internet connection could be established.",
 };
 
 // CConfigGeneral dialog

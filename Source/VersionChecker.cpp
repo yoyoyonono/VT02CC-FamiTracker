@@ -41,7 +41,7 @@ struct CHttpStringReader {
 		hOpen = InternetOpenW(L"0CC_FamiTracker", INTERNET_OPEN_TYPE_PRECONFIG, NULL, NULL, 0);
 		hConnect = InternetConnectW(hOpen, L"api.github.com",
 			INTERNET_DEFAULT_HTTPS_PORT, L"", L"", INTERNET_SERVICE_HTTP, 0, 0);
-		hRequest = HttpOpenRequestW(hConnect, L"GET", L"/repos/HertzDevil/0CC-FamiTracker/releases",
+		hRequest = HttpOpenRequestW(hConnect, L"GET", L"/repos/yoyoyonono/VT02CC-FamiTracker/releases",
 			L"HTTP/1.0", NULL, rgpszAcceptTypes,
 			INTERNET_FLAG_RELOAD | INTERNET_FLAG_SECURE | INTERNET_FLAG_NO_CACHE_WRITE, NULL);
 	}
@@ -140,12 +140,12 @@ void CVersionChecker::ThreadFn(bool startup, std::promise<std::optional<stVersio
 		if (auto pos = desc.find("\r\n\r\n#"); pos != std::string::npos)
 			desc = desc.substr(0, pos);
 
-		std::string msg = "A new version of 0CC-FamiTracker is now available:\n\n";
+		std::string msg = "A new version of VT02CC-FamiTracker is now available:\n\n";
 		msg += "Version " + verStr + " (released on " + timeStr + " %s)\n\n";
 		msg += "Pressing \"Yes\" will launch the Github web page for this release.";
 		if (startup)
 			msg += " (Version checking on startup may be disabled in the configuration menu.)";
-		std::string url = "https://github.com/HertzDevil/0CC-FamiTracker/releases/tag/v%s" + verStr;
+		std::string url = "https://github.com/yoyoyonono/VT02CC-FamiTracker/releases/tag/v%s" + verStr;
 
 		p.set_value(stVersionCheckResult {std::move(msg), std::move(url), MB_YESNO | MB_ICONINFORMATION});
 	}

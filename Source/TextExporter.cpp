@@ -968,7 +968,7 @@ CStringA CTextExport::ExportFile(const fs::path &FileName, CFamiTrackerDoc &Doc)
 		f.Write(str.GetString(), str.GetLength());
 	};
 
-	WriteString(FormattedA("# 0CC-FamiTracker text export %s\n\n", Get0CCFTVersionString()));		// // //
+	WriteString(FormattedA("# VT02CC-FamiTracker text export %s\n\n", Get0CCFTVersionString()));		// // //
 
 	WriteString("# Module information\n");
 	WriteString(FormattedA("%-15s %s\n", CT[CT_TITLE],     (LPCSTR)ExportString(modfile.GetModuleName())));
