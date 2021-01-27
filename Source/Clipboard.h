@@ -32,6 +32,9 @@ class CBinarySerializableInterface;
 
 namespace CClipboard {
 
+	bool ReadGlobalMemory(CBinarySerializableInterface& ser, HGLOBAL hMem);
+
+
 // Clipboard wrapper class, using this ensures that clipboard is closed when finished
 class CClipboardHandle {
 public:
@@ -77,7 +80,7 @@ std::optional<T> RestoreFromClipboard(CWnd *parent, CLIPFORMAT ClipboardID) {
 	return std::nullopt;
 }
 
-bool ReadGlobalMemory(CBinarySerializableInterface &ser, HGLOBAL hMem);
+//bool ReadGlobalMemory(CBinarySerializableInterface &ser, HGLOBAL hMem);
 DROPEFFECT DragDropTransfer(const CBinarySerializableInterface &ser, CLIPFORMAT clipboardID, DWORD effects);
 
 } // namespace CClipboard
