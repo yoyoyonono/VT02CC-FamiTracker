@@ -1038,7 +1038,7 @@ BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,12,63,20,20,SS_REALSIZEIMAGE
     LTEXT           "VT02CC-FamiTracker",IDC_ABOUT1,54,58,219,11,SS_NOPREFIX
     LTEXT           "Extension of 0CC-Famitracker, FamiTracker",IDC_ABOUT2,54,76,167,11,SS_NOPREFIX
-    LTEXT           "Copyright (C) 2005 - 2015 jsr, 2014 - 2018 HertzDevil, 2021 yoyoyonono",IDC_ABOUT3,54,92,215,11
+    LTEXT           "Copyright (C) 2005 - 2015 jsr, 2014 - 2018 HertzDevil, 2021 yoyoyonono",IDC_ABOUT3,54,85,215,22
     LTEXT           "E-mail:",IDC_STATIC,54,107,24,10
     LTEXT           "nicetas.c@gmail.com",IDC_MAIL,84,107,70,10,SS_NOTIFY
     LTEXT           "Web:",IDC_STATIC,54,117,24,9
@@ -2343,7 +2343,7 @@ BEGIN
     IDS_SEL_TERMINAL_SKIP   "Error: Current selection may truncate other rows, consider enabling ""Show skipped rows""."
     IDS_PASTE_REPEATED_ROW  "Warning: Clip data may overwrite itself during pasting. Do you want to apply the paste operation?"
     IDS_PASTE_NONTERMINAL   "Warning: Clip data may alter frame lengths during pasting. Do you want to apply the paste operation?"
-    IDS_DISABLE_SAVE        "Saving to external files is disabled in this build of 0CC-FamiTracker."
+    IDS_DISABLE_SAVE        "Saving to external files is disabled in this build of VT02CC-FamiTracker."
     IDS_BOOKMARK_EMPTY      "The current song does not contain any bookmarks."
     IDS_POPULATE_PATTERNS   "Do you want to copy a unique pattern for all frames? There is no undo for this command."
     IDS_BOOKMARK_FORMAT     "Moved to bookmark %1. (Highlight: %2, %3)"
@@ -2656,7 +2656,7 @@ BEGIN
     IDS_CLIPBOARD_PASTE_ERROR 
                             "An error occured while trying to paste data from the clipboard."
     IDS_DPCM_SPACE_FORMAT   "Space used %1 kB, left %2 kB (%3 kB available)"
-    IDS_FILTER_0CC          "VT02CC-FamiTracker modules (*.0cc;*.ftm)"
+    IDS_FILTER_0CC          "VT02CC-FamiTracker modules (*.vt02cc;*.0cc;*.ftm)"
     IDS_INSTRUMENT_EDITOR_TITLE "Instrument editor - %1"
     IDS_INST_VERSION_UNSUPPORTED "File version not supported!"
     IDS_FILE_SAVED          "File saved (%1 bytes)"

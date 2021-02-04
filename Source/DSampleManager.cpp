@@ -23,7 +23,7 @@
 #include "DSampleManager.h"
 #include "ft0cc/doc/dpcm_sample.hpp"
 
-const unsigned int CDSampleManager::MAX_DSAMPLES = 64;
+const unsigned int CDSampleManager::MAX_DSAMPLES = 9999;
 
 CDSampleManager::CDSampleManager() : m_pDSample(MAX_DSAMPLES)
 {

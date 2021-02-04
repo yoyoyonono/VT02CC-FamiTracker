@@ -335,7 +335,7 @@ void CModulePropertiesDlg::OnBnClickedSongImport()
 {
 	CModuleImportDlg importDlg(m_pDocument);
 
-	if (auto path = GetLoadPath("", "", IDS_FILTER_0CC, L"*.0cc; *.ftm")) {
+	if (auto path = GetLoadPath("", "", IDS_FILTER_0CC, L"*.vt02cc; *.0cc; *.ftm")) {
 		if (!importDlg.LoadFile(*path))		// // //
 			return;
 
