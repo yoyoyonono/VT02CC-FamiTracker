@@ -109,7 +109,7 @@ BEGIN
         MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
         MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
         MENUITEM SEPARATOR
-        MENUITEM "Create NS&F...\tCtrl+E",      ID_FILE_CREATE_NSF
+//        MENUITEM "Create NS&F...\tCtrl+E",      ID_FILE_CREATE_NSF
         MENUITEM "Create &WAV...",              ID_FILE_CREATEWAV
         MENUITEM SEPARATOR
         POPUP "&Import"
@@ -426,7 +426,7 @@ BEGIN
         MENUITEM "Unload",                      IDC_UNLOAD
         MENUITEM "Save",                        IDC_SAVE
         MENUITEM "Load",                        IDC_LOAD
-        MENUITEM "Import",                      IDC_IMPORT
+//        MENUITEM "Import",                      IDC_IMPORT
     END
 END
 
@@ -1147,7 +1147,7 @@ BEGIN
     DEFPUSHBUTTON   "Load",IDC_LOAD,312,19,47,14
     PUSHBUTTON      "Unload",IDC_UNLOAD,312,35,47,14
     PUSHBUTTON      "Save",IDC_SAVE,312,51,47,14
-    PUSHBUTTON      "Import",IDC_IMPORT,312,67,47,14
+//    PUSHBUTTON      "Import",IDC_IMPORT,312,67,47,14
     PUSHBUTTON      "Edit",IDC_EDIT,312,83,47,14
     PUSHBUTTON      "Preview",IDC_PREVIEW,312,99,47,14
     LTEXT           "D-counter",IDC_STATIC,138,61,33,8

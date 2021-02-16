@@ -33,7 +33,7 @@ class dpcm_sample {
 public:
 	using sample_t = std::uint8_t;
 
-	static constexpr std::size_t max_size = 0xFF1;
+	static constexpr std::size_t max_size = 0xFFFF;
 	static constexpr std::size_t max_name_length = 255;
 	static constexpr sample_t pad_value = 0xAA;
 
